@@ -20,7 +20,7 @@ $(document).ready(function () {
     
     function buildQueryURL(userSearch, userSelect) {
 
-        var queryURL = "http://api.yummly.com/v1/api/recipes?_app_id=5e18238c&_app_key=544f6e5d2d082b6920da1b1b3da50628&q=" + userSearch + "&allowedCuisine[]=cuisine^cuisine-" + userSelect;
+        var queryURL = "https://api.yummly.com/v1/api/recipes?_app_id=5e18238c&_app_key=544f6e5d2d082b6920da1b1b3da50628&q=" + userSearch + "&allowedCuisine[]=cuisine^cuisine-" + userSelect;
         $.ajax({
             url: queryURL,
             method: "GET"
@@ -50,7 +50,7 @@ $(document).ready(function () {
 
                 $("#results").append(foodsDiv);
                 $(".picture").wrap($('<a>', {
-                    href: 'http://www.yummly.com/recipe/' + recipeID,
+                    href: 'https://www.yummly.com/recipe/' + recipeID,
                     target: '_blank'
                 }));
             }
