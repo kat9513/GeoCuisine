@@ -92,9 +92,5 @@ $(document).ready(function () {
             buildQueryURL(userSearch, userSelect)
         }
         $("#user-search").val("");
-        // buildQueryURL()
-        //console.log(userSearch);
-        
-    
     });
 });
