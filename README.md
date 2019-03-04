@@ -1,4 +1,4 @@
-# fixingProject1
+# GeoCuisine
 https://kat9513.github.io/GeoCuisine/
 
 A web app that allows users to search for recipes based on ingredients they already have in their fridge and pantry in an effort to prevent food waste. 
